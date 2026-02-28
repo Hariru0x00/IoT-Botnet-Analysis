@@ -3,7 +3,7 @@ import "elf"
 rule Linux_Botnet_Gafgyt_SH4_Variant {
     meta:
         description = "Detects Gafgyt/Mirai malware variants on the SH4 architecture"
-        author = "Security_Analysis_Assistant"
+        author = "đcm"
         date = "2024-05-20"
         severity = "Critical"
         sample_ip = "50.183.49.88"
