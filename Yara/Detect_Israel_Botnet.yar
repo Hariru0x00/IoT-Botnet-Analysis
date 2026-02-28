@@ -2,7 +2,7 @@ import "elf"
 
 rule Detect_Israel_Botnet_Mirai_Variant {
     meta:
-        author = "Security_Analyst_Termux"
+        author = "Security_Analyst"
         description = "Detects Israel-themed Botnet variants (Gafgyt/Mirai) - Fixed reference errors"
         severity = "Critical"
 
