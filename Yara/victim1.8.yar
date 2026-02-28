@@ -1,7 +1,7 @@
 rule Gafgyt_Hitta_Variant {
     meta:
         description = "Detects Gafgyt/Bashlite (Hitta) variant from victim_08 sample"
-        author = "Gemini AI"
+        author = "toki"
         date = "2026-02-28"
 
     strings:
