@@ -1,7 +1,7 @@
 rule Malware_Lnx_DDoSia_NoName057_v2 {
     meta:
-        description = "Detects DDoSia Botnet (NoName057(16)) Go version for ARM"
-        author = "Gemini AI & Reverse Engineering Peer"
+        description = "Detects DDoSia Botnet (NoName057... ) Go version for ARM"
+        author = "nnnn"
         date = "2026-02-28"
         version = "1.1"
         reference = "Analysis of sample d_lin_arm_wr - IP 35.67.150.230"
