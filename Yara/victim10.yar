@@ -1,7 +1,7 @@
 rule Gafgyt_LizardStresser_Custom_Campaign {
     meta:
         description = "Detects Gafgyt variant with specific C2 and campaign ID"
-        author = "Gemini AI"
+        author = "Hinatara"
         threat_level = "High"
 
     strings:
