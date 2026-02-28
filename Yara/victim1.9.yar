@@ -4,19 +4,19 @@ rule Hakai_Botnet_PPC_Final_v2 {
         threat_level = "Critical"
 
     strings:
-        /* Cac chuoi he thong sau khi giai ma */
+        /* System strings after decryption */
         $s1 = "hakaiboatnet.pw" ascii
         $s2 = "/proc/net/tcp" ascii
         $s3 = "/dev/watchdog" ascii
         
-        /* Dau van tay tac gia */
+        /* Author fingerprint */
         $auth = "hacked by hoa long" ascii
 
-        /* Chuoi ma hoa hex thuc te trong binary */
+        /* Actual hex encoded strings in the binary */
         $hex1 = { 2d 24 2b 24 2c 27 2a 24 31 2b 20 31 6b 35 32 } 
         $hex2 = { 6a 35 37 2a 26 6a 2b 20 31 6a 31 26 35 }
 
-        /* Ten cac ham dac trung */
+        /* Characteristic function names */
         $f1 = "table_init"
         $f2 = "tcpFl00d"
         $f3 = "tcpcsum"
