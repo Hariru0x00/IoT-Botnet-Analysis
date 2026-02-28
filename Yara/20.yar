@@ -3,7 +3,7 @@ import "elf"
 rule Mirai_Gafgyt_SuperRule_Combined {
     meta:
         description = "Combined rule for detecting Mirai/Gafgyt Botnet campaigns from 22 sample files - Fixed Version"
-        author = "Security Analysis Assistant"
+        author = "github"
         version = "2.1"
         severity = "Critical"
 
