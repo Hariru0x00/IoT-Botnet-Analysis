@@ -1,6 +1,6 @@
 rule Linux_Gafgyt_Ciobaba_Final {
     meta:
-        description = "Phát hiện biến thể Gafgyt từ hạ tầng ciobabaservices"
+        description = "Detects Gafgyt variant from ciobabaservices infrastructure"
         author = "Security Researcher"
         date = "2026-02-15"
 
