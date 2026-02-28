@@ -24,3 +24,5 @@ Intended exclusively for personal research and educational purposes.
 Must not be used to attack, exploit, or cause harm to any system.
 
 Safety first.
+
+##by Hariru0x00 
