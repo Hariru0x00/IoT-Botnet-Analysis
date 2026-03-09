@@ -1,4 +1,4 @@
-# Simple Malware Lab
+# Simple Malware Lab ( no update )
 
 A simple personal repository for practicing analysis of **Mirai** and **Gafgyt** — two common IoT botnet families running on Linux.
 
